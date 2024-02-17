@@ -1,20 +1,3 @@
-# Welcome to MkDocs
+En éste curso se asume que ya tienes instalado Python y tienes tu editor de código de confianza. Si no, tú intenta instalar Python con [la web oficial](https://www.python.org/), y para el editor pues descarga [VSCode](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-# Hi there!
-Check out my [mini book](./hello.md)
+1. [Expresiones](./Curso-Python/expresiones.md)

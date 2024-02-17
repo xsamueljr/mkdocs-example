@@ -2,10 +2,11 @@
 name: Build and deploy web
 
 on:
-  # Runs on pushes targeting the default branch
   push:
+    
     branches: 
     - "main"
+    
     paths:
     - "docs/**"
     - "mkdocs.yml"
