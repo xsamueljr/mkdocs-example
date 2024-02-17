@@ -36,13 +36,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.9
+      
+      - name: Setup Material Mkdocs
+        run: pip install mkdocs-material
+      
+      - name: Build web
+        run: mkdocs build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: './site'
+          # Upload site directory
+          path: './site/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
